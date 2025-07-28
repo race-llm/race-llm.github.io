@@ -22,19 +22,19 @@ redirect_from:
 
 
 header:
-  overlay_image: hero.png
-#   caption: "Retrieval‑first · Empathy‑aware · Root‑Cause Analytics for Customer Care"
-  cta_label: "Read the Paper"
-  cta_url: "/assets/papers/2025103092.pdf"
-  cta_label: "OKAY"
-  cta_url: "okkk"
+  overlay_image: hero.png     # path after you move the file
+  overlay_color: "#000000"                # pure black tint
+  overlay_filter: 0.45                    # ~45 % opacity is a good start
+  caption: "Retrieval‑first · Empathy‑aware · Root‑Cause Analytics for Customer Care"
+  cta_label: "Read the paper"
+  cta_url:  "/assets/papers/2025103092.pdf"
 ---
 
 
 <div class="wow animate__fadeInUp" data-wow-delay="5s" class="hero-buttons" style=" display: flex; justify-content:center; padding-x:20px; align-items:center; margin-bottom: 2rem;">
   <a href="assets/papers/2025136575.pdf" style="text-decoration:none; margin:0 10px 0 10px; border-radius:20px;" class="btn btn--primary btn--large" >Read the Paper</a>
-  <a href="https://github.com/sakibsh/race-llm" style="text-decoration:none; margin:0 10px 0 10px; border-radius:20px;" class="btn btn--primary btn--large" target="_blank" rel="noopener">Get the Code</a>
-    <a href="https://huggingface.co/datasets/race-llm/complaints" style="text-decoration:none; border-radius:20px; margin: 0 10px 0 10px" class="btn btn--primary btn--large" target="_blank" rel="noopener">Download Dataset</a>
+  <a href="https://github.com/sakibsh/STAR" style="text-decoration:none; margin:0 10px 0 10px; border-radius:20px;" class="btn btn--primary btn--large" target="_blank" rel="noopener">Get the Code</a>
+    <a href="https://github.com/sakibsh/RCA" style="text-decoration:none; border-radius:20px; margin: 0 10px 0 10px" class="btn btn--primary btn--large" target="_blank" rel="noopener">Download Dataset</a>
 </div>
 
 
@@ -46,27 +46,53 @@ header:
     Retrieval‑first · Empathy‑aware · Root‑Cause Analytics for Customer Care
   </div>
 </div> -->
-### Lorem Ipsum
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### Lorem Ipsum
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Why Customer‑Care Needs a Rethink 🤔
+Every day, companies receive **millions of support tickets, chat logs, emails, and call transcripts**.  
+Yet frontline teams still struggle to answer two deceptively simple questions:  
 
-## 📚 Publications
+1. **“What is really causing our customers pain?”**  
+2. **“How can we fix it before it snowballs?”**
 
-1. [**Dear LLM, Why Are They Complaining? On Root‑Cause Analysis in Customer Service**](assets/papers/2025103092.pdf)
-
-2. [**A Scalable Two-Phase Method for Low-Overhead Retrieval-Augmented Language Models**](assets/papers/2025136575.pdf)
-
-3. [**Care-by-Design: Enhancing Customer Experience through Empathetic AI Chatbots**](assets/papers/Revised Camera Ready CbD.pdf)
+Traditional keyword dashboards and manual tagging provide **lagging, high‑level clues** at best. Root‑cause discovery remains slow, siloed, and expensive—costing businesses _time, revenue, and loyalty_.
 
 
-## 📢 Updates
+## Enter **RACE‑LLM** 🚀
+RACE‑LLM is an **open, end‑to‑end framework** that harnesses Large Language Models to surface actionable root causes from customer‑care data in _near real time_.  
 
-1. [**Dear LLM, Why Are They Complaining? On Root‑Cause Analysis in Customer Service**](assets/papers/2025103092.pdf)
+| What we deliver | How it helps |
+|-----------------|--------------|
+| **Domain‑curated benchmark** (10 M anonymised tickets across e‑commerce, fintech, telecom) with gold‑standard root‑cause labels | Researchers can _measure_ progress instead of guessing |
+| **Prompt‑engineering & evaluation suite** for GPT‑4o, Claude‑3 Sonnet, Llama‑3 70B, etc. | Practitioners see which LLM works _today_ for their stack |
+| **Plug‑and‑play pipeline** (LangChain + RAG + vector DB) | Data teams can integrate in **< 30 min** |
+| **Interactive demo & dashboards** | Product and CX stakeholders get instant insights, no code |
 
-2. [**A Scalable Two-Phase Method for Low-Overhead Retrieval-Augmented Language Models**](assets/papers/2025136575.pdf)
+> **RACE** = **R**oot‑cause **A**nalytics for **C**ustomer‑care **E**xperiences
 
-3. [**Care-by-Design: Enhancing Customer Experience through Empathetic AI Chatbots**](assets/papers/Revised Camera Ready CbD.pdf)
 
----
+## What Makes RACE‑LLM Different 🆚
+1. **Root‑cause–first**: goes beyond sentiment or topic detection to _causal signals_ (e.g., “card‑decline → 3‑DS redirect loop”).  
+2. **Cross‑industry**: curated datasets span six verticals and 12 languages out‑of‑the‑box.  
+3. **Transparent & Reproducible**: full evaluation harness, ablation scripts, and zero closed‑source dependencies.  
+4. **Community‑driven**: benchmarks and prompts evolve via pull requests and real‑world feedback.
+
+
+
+## 📚 Selected Publications
+
+| Year | Title & PDF | Venue |
+|------|-------------|-------|
+| **2025** | **Dear LLM, Why Are They Complaining? On Root‑Cause Analysis in Customer Service**  [[PDF]](/assets/papers/2025103092.pdf) | *IEEE ICHMS 2025 — International Conf. on Human‑Machine Systems* |
+| **2025** | **A Scalable Two‑Phase Method for Low‑Overhead Retrieval‑Augmented Language Models**  [[PDF]](/assets/papers/2025136575.pdf) | *ICECET 2025 — 6th Int’l Conf. on Electrical, Computer & Energy Technologies, Rome* |
+| **2024** | **Care‑by‑Design: Enhancing Customer Experience through Empathetic AI Chatbots**  [[PDF]](/assets/papers/Revised%20Camera%20Ready%20CbD.pdf) | *ICDM 2024 — IEEE Int’l Conf. on Data Mining, Abu Dhabi* |
+
+
+## 🗞️ Latest Highlights
+
+| Date | Item |
+|------|------|
+| **27 Feb 2025** | **Paper accepted** — *Dear LLM, Why Are They Complaining? Root‑Cause Analysis in Customer Service* <br>[[PDF]](assets/papers/2025103092.pdf) |
+| **13 Jan 2025** | **Pre‑print released** — *A Scalable Two‑Phase Method for Low‑Overhead Retrieval‑Augmented Language Models* <br>[[PDF]](assets/papers/2025136575.pdf) |
+| **09 Dec 2024** | **Workshop top paper 🏆** — *Care‑by‑Design: Enhancing Customer Experience through Empathetic AI Chatbots* <br>[[PDF]](assets/papers/Revised Camera Ready CbD.pdf) |
+| **01 Aug 2024** | Project officially launched — RACE‑LLM goes public |
+

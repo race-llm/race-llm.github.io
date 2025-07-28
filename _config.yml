@@ -13,7 +13,7 @@ title                    : "Home"
 title_separator          : "-"
 name                     : &name "RACE-LLM"
 description              : &description "personal description"
-url                      : https://hashimtayyab.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://sakibsh.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/race-llm" #"" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -148,29 +148,29 @@ social:
   links: # An array of links to social media profiles
       - label: "Website"
         icon: "fas fa-link"
-        url: "https://your-website.com"
+        url: "https://ceoai.ai/"
 
       - label: "GitHub"
         icon: "fab fa-github"
-        url: "https://github.com/your-username"
+        url: "https://github.com/sakibsh"
 
       - label: "LinkedIn"
         icon: "fab fa-linkedin"
-        url: "https://linkedin.com/in/your-username"
+        url: "https://www.linkedin.com/company/theaiceo/"
 
 # footer:
 #   links:
 #     - label: "GitHub"
 #       icon: "fab fa-github"
-#       url: "https://github.com/your-username"
+#       url: "https://github.com/sakibsh"
 
 #     - label: "LinkedIn"
 #       icon: "fab fa-linkedin"
-#       url: "https://linkedin.com/in/your-username"
+#       url: "https://www.linkedin.com/company/theaiceo/"
 
 #     - label: "Twitter"
 #       icon: "fab fa-twitter"
-#       url: "https://twitter.com/your-handle"
+#       url: "https://x.com/aiceocompany"
 
 #     - label: "Email"
 #       icon: "fas fa-envelope"

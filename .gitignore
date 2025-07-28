@@ -18,3 +18,9 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+.DS_Store
+images/.DS_Store
+_includes/.DS_Store
+images/.DS_Store
+.DS_Store
+_includes/.DS_Store

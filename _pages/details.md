@@ -5,6 +5,18 @@ author_profile: true
 ---
 {% capture my_about %}
 
+> “The real voyage of customer empathy lies not in collecting more feedback, but in *understanding why* the feedback exists in the first place.”  
+> <span style="font-size:0.85em;">— Adapted from Marcel Proust</span>
+
+## The Problem 🔍
+Every day, businesses generate **millions of chat logs, e‑mails, and call transcripts**. Yet support teams struggle to answer two deceptively simple questions:
+
+1. **What is truly causing customers pain?**  
+2. **How can we intervene *before* the next complaint is filed?**
+
+![CBD]({{ site.baseurl }}/images/complain.png)
+
+Traditional Root‑Cause Analysis (RCA) pipelines rely on handcrafted taxonomies, keyword dashboards, or expensive manual audits. These approaches are **slow, brittle, and silo‑specific**—leaving decision‑makers with lagging, high‑level clues instead of actionable insight.
 
 
 ## 1 · Root Cause Analysis (RCA)
