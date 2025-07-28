@@ -1,0 +1,42 @@
+
+<div class="footer-social" style="text-align: center; margin-top: 1em;">
+  <a href="https://github.com/yourusername" target="_blank" style="margin: 0 10px; ">
+    <i style="color: teal;" class="fab fa-github fa-lg"></i>
+  </a>
+  <a href="https://linkedin.com/in/yourusername" target="_blank" style="margin: 0 10px; ">
+    <i style="color: teal;" class="fab fa-linkedin fa-lg"></i>
+  </a>
+  <a href="https://twitter.com/yourusername" target="_blank" style="margin: 0 10px; ">
+    <i style="color: teal;" class="fab fa-x-twitter fa-lg"></i>
+  </a>
+    <a href="https://facebook.com/yourusername" target="_blank" style="margin: 0 10px; ">
+    <i style="color: teal;" class="fa-brands fa-facebook fa-lg" aria-hidden="true"></i>
+  </a>
+    <a href="https://instagram.com/yourusername" target="_blank" style="margin: 0 10px; ">
+    <i style="color: teal;" class="fa-brands fa-instagram fa-lg"></i>
+  </a>
+</div>
+
+
+<div class="page__footer-copyright">
+  &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.<br />
+  Site last updated {{ "now" | date: '%Y-%m-%d' }}
+</div>
+
+{% if site.footer.links %}
+  <ul class="social-icons">
+    {% for link in site.footer.links %}
+      <li>
+        <a href="{{ link.url }}">
+          <i class="{{ link.icon }}"></i> {{ link.label }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<script>
+  new WOW().init();
+</script>
+
+

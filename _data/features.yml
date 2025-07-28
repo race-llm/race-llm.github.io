@@ -1,0 +1,11 @@
+- title: Root Cause Analysis
+  icon: fa-solid fa-magnifying-glass
+  text: 420 complaint dataset & 68 % accuracy
+
+- title: STAR Retrieval
+  icon: fa-solid fa-star
+  text: Self knowledge gate slashes RAG cost
+
+- title: Care by Design
+  icon: fa-solid fa-heart
+  text: Empathy embedding ↑ satisfaction scores

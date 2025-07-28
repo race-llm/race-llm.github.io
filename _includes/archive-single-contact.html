@@ -1,0 +1,23 @@
+<div class="contact-entry" style="margin-bottom: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 1rem; display: flex; gap: 1.5rem; align-items: center;">
+
+  {% if post.image_path %}
+    <img src="{{ post.image_path | prepend: site.baseurl }}" alt="{{ post.title }}" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover;">
+  {% endif %}
+
+  <div>
+    <h3 style="margin-bottom: 0.2rem;">{{ post.title }}</h3>
+
+    {% if post.position %}
+      <p style = "margin: 0.2rem 0"><strong>Position:</strong> {{ post.position }}</p>
+    {% endif %}
+    {% if post.office %}
+      <p style = "margin: 0.2rem 0;"><strong>Office:</strong> {{ post.office }}</p>
+    {% endif %}
+    {% if post.location %}
+      <p style = "margin: 0.2rem 0"><strong>City:</strong> {{ post.location }}</p>
+    {% endif %}
+    {% if post.email %}
+      <p style = "margin: 0.2rem 0"><strong>Email:</strong> <a href="mailto:{{ post.email }}">{{ post.email }}</a></p>
+    {% endif %}
+  </div>
+</div>
